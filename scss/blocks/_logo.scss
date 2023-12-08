@@ -1,0 +1,22 @@
+.logo{
+color: #FFF;
+// font-size: 28px;
+font-size: clamp(18px, 0.946rem + 0.89vw, 28px);
+font-weight: 700;
+letter-spacing: 0.28px;
+text-transform: capitalize;
+}
+.footer__desc{
+  color: #FFF;
+  
+
+p + p {
+  margin-top: 1em;
+}
+@include mobile () {
+  grid-column: 1 / 3; 
+}
+}
+.footer__logo {
+  margin-bottom: 29px;
+}
